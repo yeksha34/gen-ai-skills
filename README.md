@@ -22,3 +22,41 @@ A collection of agentic skills for GenAI agents and assistants. Each skill is ma
 | **track-feature** | [`track-feature`](https://github.com/yeksha34/gen-ai-skills/tree/track-feature) | Track and manage feature lifecycles and synchronize requirement specs. |
 | **world-builder** | [`world-builder`](https://github.com/yeksha34/gen-ai-skills/tree/world-builder) | Build and extend world lore, characters, settings, arcs, and rules. |
 | **world-lint** | [`world-lint`](https://github.com/yeksha34/gen-ai-skills/tree/world-lint) | Lint, validate, and navigate world lore cross-references and card webs. |
+
+---
+
+## How to Fetch and Merge a Subtree
+
+To import and keep a skill branch synchronized with another project repository using Git subtree:
+
+### 1. Add and Fetch the Remote
+
+In your target project repository, add this repo as a remote and fetch:
+
+```bash
+git remote add gen-ai-skills https://github.com/yeksha34/gen-ai-skills.git
+git fetch gen-ai-skills
+```
+
+### 2. Add a Skill Subtree
+
+Add the desired skill branch (e.g. `log-bug`) to your project under your desired directory prefix (e.g. `.agents/skills` or `skills`):
+
+```bash
+git subtree add --prefix=skills gen-ai-skills log-bug --squash
+```
+
+### 3. Fetch and Merge Updates
+
+To fetch and merge the latest updates from a skill branch:
+
+#### Option A: Using `git subtree pull`
+```bash
+git subtree pull --prefix=skills gen-ai-skills log-bug --squash
+```
+
+#### Option B: Using `git fetch` and `git merge -s subtree`
+```bash
+git fetch gen-ai-skills <branch-name>
+git merge -s subtree -Xsubtree=<prefix> gen-ai-skills/<branch-name>
+```
