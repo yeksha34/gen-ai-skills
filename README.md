@@ -8,6 +8,7 @@ A collection of agentic skills for GenAI agents and assistants. Each skill is ma
 | :--- | :--- | :--- |
 | **gangadhar-shuddh-hindi** | [`gangadhar-shuddh-hindi`](https://github.com/yeksha34/gen-ai-skills/tree/gangadhar-shuddh-hindi) | Speak or write in ultra-shuddh, Sanskritised Hindi in the voice of Gangadhar (from Shaktimaan). |
 | **log-bug** | [`log-bug`](https://github.com/yeksha34/gen-ai-skills/tree/log-bug) | Log, triage, fix-track, and close bugs or tech-debt items. |
+| **native-html-first** | [`native-html-first`](https://github.com/yeksha34/gen-ai-skills/tree/native-html-first) | Check for built-in HTML elements or attributes before writing JavaScript, custom components, or libraries. |
 | **native-pronunciation-spelling** | [`native-pronunciation-spelling`](https://github.com/yeksha34/gen-ai-skills/tree/native-pronunciation-spelling) | Spell Indic words in English or Devanagari text as actually pronounced natively. |
 | **quiet-cut-recovery** | [`quiet-cut-recovery`](https://github.com/yeksha34/gen-ai-skills/tree/quiet-cut-recovery) | Recover specific detail, vivid imagery, or distinctive voice quietly cut or softened across revisions. |
 | **recency-precedence** | [`recency-precedence`](https://github.com/yeksha34/gen-ai-skills/tree/recency-precedence) | Resolve conflicting story reference files by treating decisions as an oldest-to-newest precedence stack. |
