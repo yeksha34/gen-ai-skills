@@ -1,0 +1,16 @@
+# Watched terms: the words whose removal matters in this project.
+# Examples: invented terms, character and place names, key objects, signature
+# phrases, words that carry the voice or register the user wants kept.
+# This list only filters and ranks what the script shows. It never decides what
+# was lost: judge each hit by meaning (run with --all to see every removal).
+# While this file has no active patterns, the script shows every removal.
+#
+# Line formats ('#' lines are comments; extend freely):
+#   regex        one case-insensitive regex (English: use \b to avoid partial words)
+#   = a|b|c      whole Devanagari words (Python's \b breaks on Devanagari vowel signs)
+#   ~ a|b|c      Devanagari word starts (stem + any ending)
+#
+# Example lines (remove the leading '# ' to activate):
+# \blantern(s)?\b
+# \bcaptain\b|\bthe old man\b
+# = नदी|पर्वत
