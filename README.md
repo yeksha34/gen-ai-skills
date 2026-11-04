@@ -6,6 +6,7 @@ A collection of agentic skills for GenAI agents and assistants. Each skill is ma
 
 | Skill | Branch | Description |
 | :--- | :--- | :--- |
+| **api-data-automation** | [`api-data-automation`](https://github.com/yeksha34/gen-ai-skills/tree/api-data-automation) | Automate data operations safely through backend APIs using agent-scoped credentials. |
 | **gangadhar-shuddh-hindi** | [`gangadhar-shuddh-hindi`](https://github.com/yeksha34/gen-ai-skills/tree/gangadhar-shuddh-hindi) | Speak or write in ultra-shuddh, Sanskritised Hindi in the voice of Gangadhar (from Shaktimaan). |
 | **log-bug** | [`log-bug`](https://github.com/yeksha34/gen-ai-skills/tree/log-bug) | Log, triage, fix-track, and close bugs or tech-debt items. |
 | **native-html-first** | [`native-html-first`](https://github.com/yeksha34/gen-ai-skills/tree/native-html-first) | Check for built-in HTML elements or attributes before writing JavaScript, custom components, or libraries. |
